@@ -5,8 +5,6 @@
 
 void Serial_CommInit( void );
 
-void Serial_CommDeInit( void );
-
 void Serial_SendByte( uint8_t byte );
 
 uint8_t Serial_ReceiveByte( void );
