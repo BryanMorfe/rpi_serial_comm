@@ -5,10 +5,10 @@
 
 typedef enum
 {
-    NO_ERROR,
-    ISR_NO_REGISTER,
-    NO_RECEIVE,
-    NO_SEND
+    NO_ERROR,           // No error
+    ISR_NO_REGISTER,    // Cannot register interrupt
+    NO_RECEIVE,         // Cannot receive
+    NO_SEND             // Cannot send
 } SCOMM_ERROR_T;
 
 void Serial_CommInit( void );
